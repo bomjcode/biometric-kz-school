@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="https://biometric.kz/wp-content/uploads/2019/08/cropped-favicon-1-32x32.png" sizes="32x32">
+    <title>Biometric school</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="background-mobile">
+        <div class="container">
+                <nav class="mobile-menu">
+                    <input type="checkbox" id="checkbox" class="mobile-menu__checkbox">
+                    <div class="logo-mobile">
+                        <img src="img/biometric-logo.svg">
+                    </div>
+                    <label for="checkbox" class="mobile-menu__btn"><div class="mobile-menu__icon"></div></label>
+                    <div class="mobile-menu__container">
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item"><a href="#home" class="mobile-menu__link">Главная</a></li>
+                            <li class="mobile-menu__item"><a href="#target" class="mobile-menu__link">Цель</a></li>
+                            <li class="mobile-menu__item"><a href="#problems" class="mobile-menu__link">Решение проблем</a></li>
+                            <li class="mobile-menu__item"><a href="#youtube" class="mobile-menu__link">Видео-презентация</a></li>
+                            <li class="mobile-menu__item"><a href="#clients" class="mobile-menu__link">Наши клиенты</a></li>
+                            <li class="mobile-menu__item"><a href="#clients_two" class="mobile-menu__link">Наши компетенции</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <section id="home" >
+                        <div class="text-home">
+                            <div class="round"><img src="img/round.svg" alt="round"></div>
+                            <div class="text-head"><h1>Система<br>
+                                безопасности</h1>
+                                <p>для учебных заведений
+                                </p></div>
+                            <div class="mother"><img src="img/mother.svg" alt="mother"></div>
+                        </div>
+                </section>
+            </div>
+        <div class="button">
+            <a href="#" id="open_pop_up">Оставить заявку</a>
+        </div>
+        <div class="pop_up_for_mobile">
+           <a href="#" id="open_pop_up_two"><img src="img/fixed-button.svg" alt="button"></a>
+        </div>
+        <div class="pop_up" id="pop_up">
+            <div class="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                    <p>Оставить заявку</p>
+                    <form action="">
+                        <input type="text" placeholder="Имя" id="name">
+                        <input type="text" placeholder="Телефон" id="phone">
+                        <input type="text" placeholder="email" id="email">
+                        <textarea type="text" placeholder="Сообщение" id="message"></textarea>
+                        <button type="submit" onclick="sendForm()">Оставить заявку</button>
+                    </form>
+                    <div class="pop_up_close" id="pop_up_close"><i class="fas fa-times"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+            <div class="target-background">
+                <div class="container">
+                    <section id="target">
+                        <div class="center">
+                            <div class="rectangle">
+                                <img src="img/rectangle.svg" alt="">
+                            </div>
+                            <div class="turniket">
+                                <img src="img/turniket.svg" alt="">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+    <div class="problems-background">
+        <div class="container">
+            <section id="problems" >
+                <h1 class="text-header">система безопасности позволяет
+                    решать сразу несколько задач:
+                </h1>
+                <div class="cards">
+                    <div class="card">
+                        <img src="img/card%20(2).svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="img/card%20(1).svg" alt="">
+                    </div>
+                </div>
+                <div class="cards_two">
+                    <div class="card">
+                        <img src="img/card%20(3).svg" alt="">
+                    </div>
+                    <div class="card">
+                        <img src="img/card%20(4).svg" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+        <div class="container">
+            <section id="problems__two" class="problems-background-two">
+                <div class="cards__three">
+                    <img src="img/first-card.svg" alt="">
+                    <img src="img/second-card.svg" alt="">
+                    <img src="img/third-card.svg" alt="">
+                    <img src="img/fourth-card.svg" alt="">
+                    <img src="img/fifth-card.svg" alt="">
+                    <img src="img/sixth-card.svg" alt="">
+                    <img src="img/seventh-card.svg" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="youtube-background">
+            <div class="container">
+                <section id="youtube">
+                    <h1 class="text-header-two">Видео-презентация<br>
+                        работы системы
+
+                    </h1>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/n_K4SVoqtlg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section id="clients" class="clients-background">
+            <h1 class="text-header-three">НАШИ КЛИЕНТЫ
+
+            </h1>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/cliens%20(1).svg" alt="">
+                </div>
+                <div class="card">
+                    <img src="img/cliens%20(2).svg" alt="">
+                </div>
+            </div>
+            <div class="cards_two">
+                <div class="card">
+                    <img src="img/cliens%20(3).svg" alt="">
+                </div>
+                <div class="card">
+                    <img src="img/cliens%20(4).svg" alt="">
+                </div>
+            </div>
+            <div class="cards_four">
+                <div class="card">
+                    <img src="img/cliens%20(5).svg" alt="">
+                </div>
+                <div class="card">
+                    <img src="img/cliens%20(6).svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="clients_two" class="clients-background-two">
+            <h1 class="text-header-two">Компетенции<br>
+                международного уровня
+            </h1>
+            <div class="cards__three">
+                <img src="img/phone%20(1).svg" alt="">
+                <img src="img/phone%20(2).svg" alt="">
+                <img src="img/phone%20(3).svg" alt="">
+                <img src="img/phone%20(4).svg" alt="">
+                <img src="img/phone%20(5).svg" alt="">
+
+            </div>
+        </section>
+    <footer class="footer">
+       <div class="container">
+
+               <div class="footer-menu">
+                   <div class="logo-footer">
+                       <img src="img/footer-logo.svg" alt="footer">
+                   </div>
+                   <div class="text-footer">
+                       <p class="first-text">+7 777 2000 733</p>
+                       <p class="second-text">www.biometric.kz</p>
+                       <p class="third-text">Almaty, 2021</p>
+                   </div>
+               </div>
+
+       </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="js/main.js" ></script>
+
+    <script>
+        function sendForm() {
+            const payload = {
+                name: document.getElementById("name").value,
+                email: document.getElementById("email").value,
+                phone: document.getElementById("phone").value,
+                message: document.getElementById("message").value,
+            }
+            const url = "https://school.biometric.kz/api/send-message/";
+            fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(payload),
+                mode: 'no-cors',
+            })
+
+        }
+    </script>
+</body>
+</html>
